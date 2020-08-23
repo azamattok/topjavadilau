@@ -2,12 +2,12 @@ package kz.dilau.topjava.model;
 
 import java.time.LocalDateTime;
 
-public class UserMeal {
+public class Meal {
     private final LocalDateTime dateTime;
     private final String descrition;
     private final int calories;
 
-    public UserMeal(LocalDateTime dateTime, String descrition, int calories) {
+    public Meal(LocalDateTime dateTime, String descrition, int calories) {
         this.dateTime = dateTime;
         this.descrition = descrition;
         this.calories = calories;
