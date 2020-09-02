@@ -2,7 +2,7 @@ package kz.dilau.topjava.web.user;
 
 import kz.dilau.topjava.model.User;
 
-import static kz.dilau.topjava.web.SecurityUtil.authUserId
+import static kz.dilau.topjava.web.SecurityUtil.authUserId;
 
 public class ProfileRestController extends AbstractUserController {
     public User get() {
