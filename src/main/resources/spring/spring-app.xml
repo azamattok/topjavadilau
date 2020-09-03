@@ -2,4 +2,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean class="kz.dilau.topjava.repository.inmemory.InMemoryUserRepository" id="inMemoryUserRepository" />
+
+    <bean class="kz.dilau.topjava.service.UserService">
+        <constructor-arg name="repository" ref="inMemoryUserRepository"/>
+
+    </bean>
+
 </beans>
