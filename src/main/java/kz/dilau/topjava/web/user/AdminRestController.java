@@ -1,9 +1,10 @@
 package kz.dilau.topjava.web.user;
 
 import kz.dilau.topjava.model.User;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
-
+@Controller
 public class AdminRestController  extends AbstractUserController{
     @Override
     public List<User> getAll() {

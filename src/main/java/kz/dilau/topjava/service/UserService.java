@@ -2,10 +2,12 @@ package kz.dilau.topjava.service;
 
 import kz.dilau.topjava.model.User;
 import kz.dilau.topjava.repository.UserRepository;
+import org.springframework.stereotype.Service;
+
 import static kz.dilau.topjava.util.ValidationUtil.checkNotFound;
 import static kz.dilau.topjava.util.ValidationUtil.checkNotFoundWithId;
 import java.util.List;
-
+@Service
 public class UserService {
     private final UserRepository repository;
 

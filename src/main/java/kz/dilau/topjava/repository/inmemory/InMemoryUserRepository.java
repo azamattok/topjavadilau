@@ -4,10 +4,11 @@ import kz.dilau.topjava.model.User;
 import kz.dilau.topjava.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collections;
 import java.util.List;
-
+@Repository
 public class InMemoryUserRepository implements UserRepository {
     private static final Logger log = LoggerFactory.getLogger(InMemoryUserRepository.class);
     @Override
