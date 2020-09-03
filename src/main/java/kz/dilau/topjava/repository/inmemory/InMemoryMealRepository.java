@@ -1,6 +1,7 @@
-package kz.dilau.topjava.repository;
+package kz.dilau.topjava.repository.inmemory;
 
 import kz.dilau.topjava.model.Meal;
+import kz.dilau.topjava.repository.MealRepository;
 import kz.dilau.topjava.util.MealsUtil;
 
 import java.util.Collection;

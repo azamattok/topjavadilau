@@ -1,9 +1,8 @@
 package kz.dilau.topjava.web;
 
 import kz.dilau.topjava.model.Meal;
-import kz.dilau.topjava.repository.InMemoryMealRepository;
+import kz.dilau.topjava.repository.inmemory.InMemoryMealRepository;
 import kz.dilau.topjava.repository.MealRepository;
-import kz.dilau.topjava.util.MealsUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
